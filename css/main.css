@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
 
 * {
@@ -50,4 +51,61 @@ body {
     display: inline-block;
     line-height: 80px;
     padding: 0 30px;
+}
+
+.container {
+    padding: 40px 0;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contents h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contents .img {
+    margin-bottom: 30px;
+}
+
+.contents .img img {
+    width: 100%;
+}
+
+.contents p {
+    margin-bottom: 20px;
+}
+
+.cities {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cities li {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.cities .photo img {
+    border-radius: 12px;
+}
+
+.cities .text h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    padding: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom p {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
 }
