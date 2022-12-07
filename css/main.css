@@ -82,6 +82,7 @@ body {
 .cities {
     width: 1000px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .cities li {
@@ -108,4 +109,16 @@ body {
     font-size: 13px;
     color: #666;
     text-align: center;
+}
+
+/* cities_02 */
+.cities_02 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cities_02 li {
+    width: 310px;
 }
